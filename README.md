@@ -1,0 +1,1 @@
+# KARINA_Gerador-de-senha_PROG_2024
