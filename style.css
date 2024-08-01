@@ -108,9 +108,14 @@ body{
     font-size: 24px;
 }
 
-.parametro-senha-textos{
-    display: flex;
-    justify-content: space-between;
+label{
+    font-size: 20px;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
 
 .barra{
@@ -140,19 +145,14 @@ body{
     width: 100%;
 }
 
-label{
-    font-size: 20px;
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
 }
 
-.checkbox{
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-}
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
     }
 }
-
